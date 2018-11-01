@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F012BC0B215DC6C5001FBF9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F012BC0A215DC6C5001FBF9E /* AppDelegate.m */; };
+		F012BC0E215DC6C5001FBF9E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F012BC0D215DC6C5001FBF9E /* ViewController.m */; };
+		F012BC11215DC6C5001FBF9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F012BC0F215DC6C5001FBF9E /* Main.storyboard */; };
+		F012BC13215DC6C8001FBF9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F012BC12215DC6C8001FBF9E /* Assets.xcassets */; };
+		F012BC16215DC6C8001FBF9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F012BC14215DC6C8001FBF9E /* LaunchScreen.storyboard */; };
+		F012BC19215DC6C8001FBF9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F012BC18215DC6C8001FBF9E /* main.m */; };
+		F012BC2B215DC6EE001FBF9E /* month.plist in Resources */ = {isa = PBXBuildFile; fileRef = F012BC23215DC6EE001FBF9E /* month.plist */; };
+		F012BC2C215DC6EE001FBF9E /* year.plist in Resources */ = {isa = PBXBuildFile; fileRef = F012BC24215DC6EE001FBF9E /* year.plist */; };
+		F012BC2D215DC6EE001FBF9E /* lunarcalenda.plist in Resources */ = {isa = PBXBuildFile; fileRef = F012BC25215DC6EE001FBF9E /* lunarcalenda.plist */; };
+		F012BC2E215DC6EE001FBF9E /* day.plist in Resources */ = {isa = PBXBuildFile; fileRef = F012BC26215DC6EE001FBF9E /* day.plist */; };
+		F012BC2F215DC6EE001FBF9E /* Date+string.m in Sources */ = {isa = PBXBuildFile; fileRef = F012BC28215DC6EE001FBF9E /* Date+string.m */; };
+		F012BC30215DC6EE001FBF9E /* solarActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F012BC29215DC6EE001FBF9E /* solarActionView.m */; };
+		F012BC34215DCFFF001FBF9E /* LunarSolarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F012BC32215DCFFF001FBF9E /* LunarSolarModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F012BC06215DC6C5001FBF9E /* GetLunarYearMonthInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetLunarYearMonthInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F012BC09215DC6C5001FBF9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F012BC0A215DC6C5001FBF9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F012BC0C215DC6C5001FBF9E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F012BC0D215DC6C5001FBF9E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F012BC10215DC6C5001FBF9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F012BC12215DC6C8001FBF9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F012BC15215DC6C8001FBF9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F012BC17215DC6C8001FBF9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F012BC18215DC6C8001FBF9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F012BC20215DC6EE001FBF9E /* Date+string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Date+string.h"; sourceTree = "<group>"; };
+		F012BC21215DC6EE001FBF9E /* solarActionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = solarActionView.h; sourceTree = "<group>"; };
+		F012BC23215DC6EE001FBF9E /* month.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = month.plist; sourceTree = "<group>"; };
+		F012BC24215DC6EE001FBF9E /* year.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = year.plist; sourceTree = "<group>"; };
+		F012BC25215DC6EE001FBF9E /* lunarcalenda.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = lunarcalenda.plist; sourceTree = "<group>"; };
+		F012BC26215DC6EE001FBF9E /* day.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = day.plist; sourceTree = "<group>"; };
+		F012BC28215DC6EE001FBF9E /* Date+string.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Date+string.m"; sourceTree = "<group>"; };
+		F012BC29215DC6EE001FBF9E /* solarActionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = solarActionView.m; sourceTree = "<group>"; };
+		F012BC32215DCFFF001FBF9E /* LunarSolarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LunarSolarModel.m; sourceTree = "<group>"; };
+		F012BC33215DCFFF001FBF9E /* LunarSolarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LunarSolarModel.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F012BC03215DC6C5001FBF9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F012BBFD215DC6C5001FBF9E = {
+			isa = PBXGroup;
+			children = (
+				F012BC08215DC6C5001FBF9E /* GetLunarYearMonthInfo */,
+				F012BC07215DC6C5001FBF9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F012BC07215DC6C5001FBF9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F012BC06215DC6C5001FBF9E /* GetLunarYearMonthInfo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F012BC08215DC6C5001FBF9E /* GetLunarYearMonthInfo */ = {
+			isa = PBXGroup;
+			children = (
+				F012BC1F215DC6EE001FBF9E /* oooooooo */,
+				F012BC09215DC6C5001FBF9E /* AppDelegate.h */,
+				F012BC0A215DC6C5001FBF9E /* AppDelegate.m */,
+				F012BC0C215DC6C5001FBF9E /* ViewController.h */,
+				F012BC0D215DC6C5001FBF9E /* ViewController.m */,
+				F012BC0F215DC6C5001FBF9E /* Main.storyboard */,
+				F012BC12215DC6C8001FBF9E /* Assets.xcassets */,
+				F012BC14215DC6C8001FBF9E /* LaunchScreen.storyboard */,
+				F012BC17215DC6C8001FBF9E /* Info.plist */,
+				F012BC18215DC6C8001FBF9E /* main.m */,
+			);
+			path = GetLunarYearMonthInfo;
+			sourceTree = "<group>";
+		};
+		F012BC1F215DC6EE001FBF9E /* oooooooo */ = {
+			isa = PBXGroup;
+			children = (
+				F012BC22215DC6EE001FBF9E /* plists */,
+				F012BC20215DC6EE001FBF9E /* Date+string.h */,
+				F012BC28215DC6EE001FBF9E /* Date+string.m */,
+				F012BC21215DC6EE001FBF9E /* solarActionView.h */,
+				F012BC29215DC6EE001FBF9E /* solarActionView.m */,
+				F012BC33215DCFFF001FBF9E /* LunarSolarModel.h */,
+				F012BC32215DCFFF001FBF9E /* LunarSolarModel.m */,
+			);
+			path = oooooooo;
+			sourceTree = "<group>";
+		};
+		F012BC22215DC6EE001FBF9E /* plists */ = {
+			isa = PBXGroup;
+			children = (
+				F012BC23215DC6EE001FBF9E /* month.plist */,
+				F012BC24215DC6EE001FBF9E /* year.plist */,
+				F012BC25215DC6EE001FBF9E /* lunarcalenda.plist */,
+				F012BC26215DC6EE001FBF9E /* day.plist */,
+			);
+			path = plists;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F012BC05215DC6C5001FBF9E /* GetLunarYearMonthInfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F012BC1C215DC6C8001FBF9E /* Build configuration list for PBXNativeTarget "GetLunarYearMonthInfo" */;
+			buildPhases = (
+				F012BC02215DC6C5001FBF9E /* Sources */,
+				F012BC03215DC6C5001FBF9E /* Frameworks */,
+				F012BC04215DC6C5001FBF9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GetLunarYearMonthInfo;
+			productName = GetLunarYearMonthInfo;
+			productReference = F012BC06215DC6C5001FBF9E /* GetLunarYearMonthInfo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F012BBFE215DC6C5001FBF9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "马浩";
+				TargetAttributes = {
+					F012BC05215DC6C5001FBF9E = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = F012BC01215DC6C5001FBF9E /* Build configuration list for PBXProject "GetLunarYearMonthInfo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F012BBFD215DC6C5001FBF9E;
+			productRefGroup = F012BC07215DC6C5001FBF9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F012BC05215DC6C5001FBF9E /* GetLunarYearMonthInfo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F012BC04215DC6C5001FBF9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F012BC2D215DC6EE001FBF9E /* lunarcalenda.plist in Resources */,
+				F012BC16215DC6C8001FBF9E /* LaunchScreen.storyboard in Resources */,
+				F012BC13215DC6C8001FBF9E /* Assets.xcassets in Resources */,
+				F012BC11215DC6C5001FBF9E /* Main.storyboard in Resources */,
+				F012BC2E215DC6EE001FBF9E /* day.plist in Resources */,
+				F012BC2C215DC6EE001FBF9E /* year.plist in Resources */,
+				F012BC2B215DC6EE001FBF9E /* month.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F012BC02215DC6C5001FBF9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F012BC2F215DC6EE001FBF9E /* Date+string.m in Sources */,
+				F012BC0E215DC6C5001FBF9E /* ViewController.m in Sources */,
+				F012BC34215DCFFF001FBF9E /* LunarSolarModel.m in Sources */,
+				F012BC30215DC6EE001FBF9E /* solarActionView.m in Sources */,
+				F012BC19215DC6C8001FBF9E /* main.m in Sources */,
+				F012BC0B215DC6C5001FBF9E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F012BC0F215DC6C5001FBF9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F012BC10215DC6C5001FBF9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F012BC14215DC6C8001FBF9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F012BC15215DC6C8001FBF9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F012BC1A215DC6C8001FBF9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F012BC1B215DC6C8001FBF9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F012BC1D215DC6C8001FBF9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7YU666T5Q;
+				INFOPLIST_FILE = GetLunarYearMonthInfo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huzhang.GetLunarYearMonthInfo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F012BC1E215DC6C8001FBF9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A7YU666T5Q;
+				INFOPLIST_FILE = GetLunarYearMonthInfo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.huzhang.GetLunarYearMonthInfo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F012BC01215DC6C5001FBF9E /* Build configuration list for PBXProject "GetLunarYearMonthInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F012BC1A215DC6C8001FBF9E /* Debug */,
+				F012BC1B215DC6C8001FBF9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F012BC1C215DC6C8001FBF9E /* Build configuration list for PBXNativeTarget "GetLunarYearMonthInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F012BC1D215DC6C8001FBF9E /* Debug */,
+				F012BC1E215DC6C8001FBF9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F012BBFE215DC6C5001FBF9E /* Project object */;
+}

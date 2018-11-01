@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>七</key>
+	<string>7x0</string>
+	<key>三</key>
+	<string>3x0</string>
+	<key>九</key>
+	<string>9x0</string>
+	<key>二</key>
+	<string>2x0</string>
+	<key>五</key>
+	<string>5x0</string>
+	<key>八</key>
+	<string>8x0</string>
+	<key>六</key>
+	<string>6x0</string>
+	<key>十</key>
+	<string>10x0</string>
+	<key>十一</key>
+	<string>11x0</string>
+	<key>四</key>
+	<string>4x0</string>
+	<key>正</key>
+	<string>1x0</string>
+	<key>腊</key>
+	<string>12x0</string>
+	<key>闰七</key>
+	<string>7x1</string>
+	<key>闰三</key>
+	<string>3x1</string>
+	<key>闰九</key>
+	<string>9x1</string>
+	<key>闰二</key>
+	<string>2x1</string>
+	<key>闰五</key>
+	<string>5x1</string>
+	<key>闰八</key>
+	<string>8x1</string>
+	<key>闰六</key>
+	<string>6x1</string>
+	<key>闰十</key>
+	<string>10x1</string>
+	<key>闰十一</key>
+	<string>11x1</string>
+	<key>闰四</key>
+	<string>4x1</string>
+	<key>闰正</key>
+	<string>1x1</string>
+	<key>闰腊</key>
+	<string>12x1</string>
+</dict>
+</plist>
